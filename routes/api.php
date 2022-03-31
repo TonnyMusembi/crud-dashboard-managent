@@ -33,6 +33,5 @@ Route::apiResource('companies',CompanyController::class);
 Route::get('/dashboard', [DashboardController::class,'index']);
 
 //pages
-
 Route::resource('mombasa', MombasaController::class);
-Route::resource('kelas', NairobiController::class);
+Route::resource('nairobi', NairobiController::class);
